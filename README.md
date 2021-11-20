@@ -14,7 +14,7 @@ If you have any questions, please do not hesitate to contact me via email {zhanx
 
 # Capture
 
-The code is coming soon.
+Code of CAPTURE can be found in 'CAPTURE' dir 
 
 
 # Citation
