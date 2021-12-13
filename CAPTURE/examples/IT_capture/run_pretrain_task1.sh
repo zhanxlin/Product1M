@@ -7,8 +7,8 @@ CUDA_VISIBLE_DEVICES=4 python pretrain_task.py \
  --learning_rate 1e-4 \
  --train_batch_size 64 \
  --max_seq_length 36 \
- --lmdb_file /data1/xl/multi_modal/data/lmdb_features/subset_v2_feature.lmdb \
- --caption_path /data1/xl/multi_modal/data/product5m_v2/subset_v2_id_label.json \
+ --lmdb_file ${data_root}/lmdb_features/train.lmdb \
+ --caption_path ${data_root}/train_id_info.json \
  --save_name capture_subset_v2_MLM_MRM_CLR \
  --MLM \
  --MRM \
