@@ -114,8 +114,6 @@ class Pretrain_DataSet_Train(object):
             tokenizer,
             seq_len,
             36,
-            self.num_dataset,
-            encoding="utf-8",
             predict_feature=predict_feature,
             MLM=MLM,
             MRM=MRM,
