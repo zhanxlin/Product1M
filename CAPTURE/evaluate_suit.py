@@ -114,7 +114,7 @@ def compute_ar(rank_list,GT_labels,gallery_label_ids,gallery_id_label,N):
 
 
     for label in label_retrieval_count:
-        label_ap=label_retrieval_count[label]/label_expect_count[label]
+        label_ap+=label_retrieval_count[label]/label_expect_count[label]
 
     label_ap/=len(GT_label_set)
     return label_ap
